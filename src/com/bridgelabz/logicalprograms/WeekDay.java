@@ -17,7 +17,8 @@ public class WeekDay {
         int day = scanner.nextInt();
         System.out.print("Enter the year: ");
         int year = scanner.nextInt();
-        int dayOfWeek = dayOfWeek(month, day, year);
+        Weekday w = new WeekDay();
+        int dayOfWeek = w.dayOfWeek(month, day, year);
         System.out.println("Day of the week: " + dayOfWeek);
     }
 }
