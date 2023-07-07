@@ -13,7 +13,7 @@ public class Fibonacii {
             next = a + b;
             a = b;
             b = next;
-            System.out.print(next + " ");
+            System.out.println(next + " ");
 
         }
     }
