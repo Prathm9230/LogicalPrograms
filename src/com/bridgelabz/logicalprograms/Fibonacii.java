@@ -7,7 +7,8 @@ public class Fibonacii {
         int next, num, a = 0, b = 1;
         System.out.println("Enter the number of Iteration: ");
         num = scanner.nextInt();
-        System.out.print(a + " " + b + " ");
+        System.out.println(a);
+         System.out.println(b);
         for (int i = 0; i < num-2; i++) {
             next = a + b;
             a = b;
